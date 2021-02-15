@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+    <style>
+        .left{
+            text-align: left;
+        }
+        .center{
+            text-align: center;
+        }
+        .right{
+            text-align: right;
+        }
+        /* CSS for all tables  */
+        table{
+            width: 100%;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            border: 3px solid black;
+        }
+        /* CSS for table four */
+        #t4-r1{
+            background-color: darkolivegreen;
+            height: 50px;
+        }
+        #i-frog{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 95%;
+        }
+        #t4-r3{
+            background-color:navy;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- For the first table -->
+    <div id="first-table">
+        <table>
+            <tr>
+                <td class="left">left</td>
+                <td class="center">center</td>
+                <td class="right">right</td>
+            </tr>
+            <tr>
+                <td class="left">left</td>
+                <td class="center">center</td>
+                <td class="right">right</td>
+            </tr>
+            <tr>
+                <td class="left">left</td>
+                <td class="center">center</td>
+                <td class="right">right</td>
+            </tr>
+        </table><br/><br/><br/>
+    </div>
+    <!-- For the Second table -->
+    <div id="second-table">
+        <table>
+            <tr><th colspan="6">Heading</th></tr>
+            <tr><td colspan="6">&nbsp;</td></tr>
+            <tr>
+                <td rowspan="4">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" rowspan="2">&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr><td colspan="6">&nbsp;</td></tr>
+        </table><br/><br/><br/>
+    </div>
+    <!-- For the third table -->
+    <div id="third-table">
+        <table>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td rowspan="4">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td rowspan="4">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table><br/><br/><br/>
+    </div>
+    <!-- For fourth table -->
+    <div id="fourth-table">
+        <table>
+            <tr>
+                <th id="t4-r1" colspan="3">&nbsp;</th>
+            </tr>
+            <tr>
+                <td style="width:20%;">&nbsp;</td>
+                <td><img id="i-frog" src="./images/frog.png" alt="Image of frog"/></td>
+                <td style="width: 15%;">&nbsp;</td>
+            </tr>
+            <tr>
+                <td id="t4-r3" colspan="3">&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
